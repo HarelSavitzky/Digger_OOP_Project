@@ -1,0 +1,18 @@
+﻿target_include_directories (SFMLExamples PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_sources (SFMLExamples PRIVATE	"const.h"
+		                              "GameManager.h"
+									  "Menu.h" 
+									  "Board.h" 
+									  "Objects.h" 
+									  "Diamond.h" 
+									 "MovingObjects.h"
+									  "Gift.h" 
+									   "Monster.h" 
+									   "Digger.h" 
+									  "Rock.h" 
+									  "SmartMonster.h" 
+									  "StaticObjects.h" 
+									  "StupidMonster.h" 
+									  "Wall.h"
+									  "Text.h"
+									  "Sounds.h")
